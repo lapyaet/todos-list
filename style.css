@@ -1,0 +1,97 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Inter:wght@100;200;300;400;500;600;700&family=Montserrat:ital,wght@1,300&family=Open+Sans:wght@300&family=Quicksand:wght@300&family=Raleway:wght@100&family=Source+Sans+Pro:wght@200;300;400;600&family=Work+Sans:wght@200;300;400;500&display=swap');
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #03071e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.todos__container {
+    width: 350px;
+    min-height: 400px;
+    background-color: #000814;
+    border-radius: 1rem;
+    box-shadow: -6px -6px  10px rgba(255,255,255,0.03);
+}
+
+.todos__container-top {
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    box-shadow: -6px -6px 10px rgb(255,255,255,0.03),
+                6px 6px 10px rgb(10,8,10,0.8),
+                inset -6px -6px 10px rgb(255, 255, 255, 0.05),
+                inset 6px 6px 10px rgb(12, 8, 12, 0.8);
+}
+
+.todos__container-top input {
+    background-color: transparent;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    color: #838284;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+.todos__container-bottom {
+    width: 80%;
+    height: 80%;
+    margin:0 auto;
+}
+
+.todos__container-bottom ul li{
+    display: flex;
+    list-style: none;
+    width: 90%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    color: #838284;
+    font-size: 0.9rem;
+    padding: 0.8rem;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: -6px -6px 10px rgb(255,255,255,0.03),
+    6px 6px 10px rgb(10,8,10,0.8),
+    inset -6px -6px 10px rgb(255, 255, 255, 0.05),
+    inset 6px 6px 10px rgb(12, 8, 12, 0.8);
+}
+
+.todosList {
+    display: flex;
+    gap: 1rem;
+}
+
+.todos__container-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.todos__container-btn button {
+    background-color: #000814;
+    outline: none;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    color: #838284;
+    letter-spacing: 1px;
+    box-shadow: -6px -6px 10px rgb(255,255,255,0.03),
+    6px 6px 10px rgb(10,8,10,0.8),
+    inset -6px -6px 10px rgb(255, 255, 255, 0.05),
+    inset 6px 6px 10px rgb(12, 8, 12, 0.8);
+    transition: all 0.3s;
+}
+
+.todos__container-btn button:hover {
+    transform: scale(1.1);
+    letter-spacing: 2px;
+}
