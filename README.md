@@ -4,7 +4,7 @@
 
 ## ToDo list image
 
-![App Screenshot](https://user-images.githubusercontent.com/98326361/178260398-5a798a23-40e0-42e6-b965-9395c1103d6b.PNG)
+![App Screenshot](https://user-images.githubusercontent.com/98326361/180661082-ef8cc6c6-fd35-4ade-bb87-ee337ddcf751.PNG)
 
 
 ## Documentation
